@@ -1,0 +1,57 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.outer-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 60%;
+  height: 90%;
+}
+img {
+  height: 250px;
+  width: 250px;
+  margin: 20px;
+}
+.mango-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  margin: 30px;
+}
+.fruits-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+h1 {
+  text-align: center;
+  margin: 25px;
+}
+.eat-mango,
+.eat-banana {
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+}
+span {
+  color: #ffd569;
+}
